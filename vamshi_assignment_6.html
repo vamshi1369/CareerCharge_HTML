@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Assignment-6
+        </title>
+    </head>
+    <style>
+        h1 {
+            color: green;
+        }
+        #outer_div {
+            border: 2px solid black;
+            width: 100%;
+            height: 300px;
+        }
+        .para_font {
+            font-family: 'Courier New', Courier, monospace;
+            font-size: xx-large;
+            font-weight: bolder;
+
+        }
+        .span_color {
+            color: red;
+        }
+
+        .para1_font {
+            font-family: 'Courier New', Courier, monospace;
+            font-size: xx-large;
+            font-weight: bolder;
+            background-color: orange;
+        }
+        .span1_color {
+            color: white;
+        }
+
+        #inner_div {
+            border: 2px solid black;
+            height: 100px;
+            margin: 10px;
+        }
+        .inner_inside_div {
+            border: 2px solid blue;
+            height: 50px;
+            margin: 20px;
+        }
+        .inner_inside_div
+        p {
+            font-family: 'Courier New', Courier, monospace;
+            font-size: larger;
+            font-weight: bolder;
+        }
+
+        .outsider_para {
+            background-color: yellow;
+        }
+        .outsider_span {
+            color: red;
+        }
+    </style>
+    <body>
+        <h1>
+            CSS Selectors
+        </h1>
+        <div  id="outer_div">
+            <p class="para_font">This is the <span class="span_color">first</span> paragraph</p>
+
+            <p class="para1_font">This is an <span class="span1_color">important</span> paragraph inside the intro Div</p>
+
+            <div id="inner_div">
+
+                <div class="inner_inside_div">
+                    <p>This is paragraph inside inner div with 0px padding and 0px margin</p>
+                </div>
+
+            </div>
+        </div>
+
+        <b><p>This is a regular paragraph</p></b>
+
+        <b><p class="outsider_para">This is an <span class="outsider_span">important</span> paragraph that is not in the intro Div</p></b>
+    </body>
+</html>

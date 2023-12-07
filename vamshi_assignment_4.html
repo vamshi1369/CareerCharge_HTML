@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Assignment-4
+        </title>
+        <style>
+            table, th, td
+            {
+               border: 1px solid black;
+               border-collapse: collapse;
+               padding: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Talk to Expert Registration Form</h1>
+        <hr>
+        <table id = "table_form">
+            <caption>Talk to Expert Registration Form</caption>
+            <!--
+            <tr>
+                <th colspan="3">Talk to Expert Registration Form</th>
+            </tr>
+            -->
+                <form method="get" action="index.php">
+                    <tr>
+                    <td>
+                    Enter your First Name
+                    </td>
+                    <td>
+                        :
+                    </td>
+                    <td>
+                        <input type="text" name="firstName" id="firstName" placeholder="Enter your first name" required>
+                    </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Enter your Last Name
+                        </td>
+                        <td>
+                            :
+                        </td>
+                        <td>
+                            <input type="text" name="lastName" id="lastName" placeholder="Enter your last name" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            I am pursuing
+                        </td>
+                        <td>
+                            :
+                        </td>
+                        <td>
+                            CSE <input type="radio" name="branch" value="CSE" id="branch_1">
+                            ECE <input type="radio" name="branch" value="ECE" id="branch_2">
+                            Mech <input type="radio" name="branch" value="Mech" id="branch_3">
+                            Other <input type="radio" name="branch" value="Other" id="branch_4">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            I am good AT
+                        </td>
+                        <td>
+                            :
+                        </td>
+                        <td>
+                            JAVA <input type="checkbox" name="skill" value="JAVA" id="skill_1">
+                            PYTHON <input type="checkbox" name="skill" value="PYTHON" id="skill_2">
+                            HTML <input type="checkbox" name="skill" value="HTML" id="skill_3">
+                            JS <input type="checkbox" name="skill" value="JS" id="skill_4">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Mobile number
+                        </td>
+                        <td>
+                            :
+                        </td>
+                        <td>
+                            <input type="number" name="mobile" id="mobile_1" placeholder="9898909098">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Graduation Year
+                        </td>
+                        <td>
+                            :
+                        </td>
+                        <td>
+                            <select name="graduation_Year">
+                                <option value="2019">2019</option>
+                                <option value="2020">2020</option>
+                                <option value="2021">2021</option>
+                                <option value="2022">2022</option>
+                                <option value="2023">2023</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Any queries ??
+                        </td>
+                        <td>
+                            :
+                        </td>
+                        <td>
+                            <textarea name="query" cols="20" rows="4" placeholder="Rows-4 , Cols-20"></textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Password to Set
+                        </td>
+                        <td>
+                            :
+                        </td>
+                        <td>
+                            <input type="password" name="password_user" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Email Required
+                        </td>
+                        <td>
+                            :
+                        </td>
+                        <td>
+                            <input type="email" name="email_id" placeholder="email" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Date Required
+                        </td>
+                        <td>
+                            :
+                        </td>
+                        <td>
+                            <input type="date" name="date_id">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            URL Required
+                        </td>
+                        <td>
+                            :
+                        </td>
+                        <td>
+                            <input type="url" name="url_id" placeholder="https://">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Hidden Element
+                        </td>
+                        <td>
+                            :
+                        </td>
+                        <td>
+                            <input type="hidden" name="hidden_id" value="123">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">
+                            <input type="submit" name="submit_button">
+                            <button type="button" disabled>CareerCharge</button>
+                            <input type="text" value="CareerCharge_1" disabled>
+                        </td>
+                    </tr>
+
+                </form>
+
+    </table>
+    </body>
+</html>
